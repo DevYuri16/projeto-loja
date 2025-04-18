@@ -54,6 +54,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 40px;
+    padding: 20px;
 }
 
 .conteudo__marketing {
