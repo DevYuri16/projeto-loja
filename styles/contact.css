@@ -1,0 +1,24 @@
+@charset "UTF-8";
+:root {
+    --cor-primaria: #91AC8F;
+    --cor-secundaria: #66785F;
+    --cor-terciaria: #504B38;
+
+    --fonte-principal: Arial, Helvetica, sans-serif;
+}
+
+.contato {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+em {
+    font-weight: 530;
+}
+
+.destaque_Contato {
+    color: var(--cor-terciaria);
+}

@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+.produtos {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.produtos_primeira, .produtos_segunda {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.produto {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.imagem {
+    width: 200px;
+    height: 200px;
+}
