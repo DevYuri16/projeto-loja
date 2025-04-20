@@ -8,6 +8,7 @@
 .produtos_primeira, .produtos_segunda {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-bottom: 20px;
 }
 
@@ -17,6 +18,9 @@
     align-items: center;
 }
 
+.imagem {
+    width: 50%;
+}
 
 .containerMarket{
     padding: 20px;
