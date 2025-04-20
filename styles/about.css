@@ -3,5 +3,5 @@
 .conteudo__about {
     display: flex;
     justify-content: center;
-    padding: 80px;
+    padding: 20px 10px 80px 10px;
 }

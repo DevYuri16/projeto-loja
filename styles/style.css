@@ -26,8 +26,12 @@ body {
     padding: 30px;
 }
 
+.cabecalho nav ul {
+    display: flex;
+}
+
 .cabecalho nav ul li {
-    display: inline-block;
+    display: block;
     list-style-type: none;
     font-weight: 600;
     margin-right: 20px;
@@ -65,6 +69,10 @@ body {
     font-size: 20px;
 }
 
+.imagem {
+    width: 50%;
+}
+
 footer {
     display: flex;
     align-items: center;
@@ -85,4 +93,16 @@ footer p {
 
 footer p a {
     color: var(--cor-terciaria);
+}
+
+@media (max-width: 540px) {
+
+    .cabecalho {
+        justify-content: flex-start;
+    }
+
+    .cabecalho nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
 }
